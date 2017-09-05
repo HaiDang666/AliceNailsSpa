@@ -1,8 +1,11 @@
 /* header */
+header .logo img {
+    width: auto;
+    height: auto;
+}
 header .slogal {
     margin-top: 10px;
 }
-
 header .slogal img {
 	height: auto;
 	width: auto;
