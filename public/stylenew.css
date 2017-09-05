@@ -1,0 +1,21 @@
+/* header */
+header .slogal {
+    margin-top: 10px;
+}
+
+header .slogal img {
+	height: auto;
+	width: auto;
+	max-height: 106px;
+}
+
+/* slider */
+.carousel-indicators .active {
+	background-color: rgb(179, 117, 16) !important;
+}
+.glyphicon-chevron-right {
+	color: rgb(179, 117, 16) !important;
+}
+.glyphicon-chevron-left {
+	color: rgb(179, 117, 16) !important;
+}
