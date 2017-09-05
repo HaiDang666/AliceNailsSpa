@@ -1762,9 +1762,18 @@ ul#related-posts-via-categories-list li .hidethenumber a {
 .support .number {
     width: 360px;
     height: 130px;
-    background: none repeat scroll 0% 0% #001B70;
+    padding-top: 15px;
+    background: none repeat scroll 0% 0% rgb(179, 117, 16);
     text-align: center;
     position: relative
+}
+
+.support .number h2 {
+    font-size: 25px;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 25px;
+    color: #FFD200!important
 }
 
 .support .number h3 {
@@ -1820,8 +1829,7 @@ ul#related-posts-via-categories-list li .hidethenumber a {
 
 .support form button {
     width: 150px;
-    background: none repeat scroll 0% 0% #001B70;
-    border-top: 2px solid #6E6E6D;
+    background: none repeat scroll 0% 0% rgb(179, 117, 16);
     border-radius: 0px;
     color: #FFF;
     text-transform: uppercase;

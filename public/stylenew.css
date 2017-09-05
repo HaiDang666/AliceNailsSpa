@@ -19,3 +19,8 @@ header .slogal img {
 .glyphicon-chevron-left {
 	color: rgb(179, 117, 16) !important;
 }
+
+/* sidebar-spacing */
+.sidebar-spacing {
+	height: 49px;
+}
