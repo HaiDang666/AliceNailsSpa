@@ -1,0 +1,303 @@
+* html body, html, body{
+    margin: 0!important;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.row{
+    margin: 0;
+}
+.pointer{
+    cursor: pointer;
+}
+.header{
+    padding: 20px 0;
+}
+.header .logo img{
+    max-height: 115px;
+    width: 100%;
+    object-fit: cover;
+}
+.header .navbar-menu{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+.header .navbar-menu .nav{
+    margin-top: 50px;
+}
+.header .navbar-menu .nav li{
+}
+.header .navbar-menu .nav li a{
+    color: #041b72;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0 12px;
+}
+.header .navbar-menu .nav li a:hover,
+.header .navbar-menu .nav li a:focus{
+    background: none;
+    color: #da000c;
+}
+.header .nav-contact ul li{
+    display: block;
+    float: left;
+    width: 150px;
+}
+.header .nav-contact ul li.hotline{
+    background: url(../../../uploads/2016/12/hotline.png) no-repeat;
+    height: 90px;
+    padding: 0 25px;
+    padding-top: 45px;
+    font-size: 20px;
+    color: #fff;
+    background-size: 100%;
+}
+.header .nav-contact ul{
+    padding-top: 20px;
+}
+.header .nav-contact ul li.register{
+    background: url(../../../uploads/2016/12/dang-ky-ngay.png);
+    height: 80px;
+    background-size: 100%;
+}
+.header .nav-contact ul li.register a{
+    text-indent: -9999px;
+}
+.box-revslider{
+    position: relative;  
+}
+.box-revslider .box-countdown{
+    bottom: 200px;
+    left: 395px;
+    position: absolute;
+}
+.client {
+    padding-bottom: 30px;
+}
+.client .doctor{
+    font-style: italic;
+    text-align: center;
+}
+.client .doctor h3{
+    text-transform: uppercase;
+    font-size: 46px;
+    color: #19308f;
+    margin-top: 0;
+}
+.client .doctor p{
+    font-size: 33px;
+    color: #19308f;
+}
+.client .doctor ul{
+    margin-top: 30px;
+}
+.client .doctor ul li{
+    display: inline-block;
+}
+.client .doctor ul li img{
+    height: 280px;
+}
+.benefits{
+    background: url(../../../uploads/2016/12/bg-gift.jpg);
+    padding: 50px 0;
+}
+.benefits .text-header{
+    text-align: center;
+    font-size: 60px;
+    color: #0c2377;
+    line-height: 1.5em;
+}
+.benefits .text-header{
+    margin: 20px 0;
+}
+.benefits .text-header .text-blue{
+    font-weight: bold;
+    font-size: 75px;
+}
+.benefits .text-header .text-danger{
+    color: #ed1c24;
+    font-size: 75px;
+    font-weight: bold;
+}
+.benefits img{
+    margin: 0 auto;   
+}
+.benefits .gift{
+    background: url(../../../uploads/2016/12/hop-qua.png) bottom center no-repeat;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+    background-size: 400px;
+}
+.benefits .gift .gift-right{
+    padding-left: 135px;
+}
+.benefits .gift .number{
+    color: #ed1c24;
+    font-size: 100px;
+    line-height: 1em;
+}
+.benefits .gift  ul li:first-child{
+    margin-bottom: 100px;
+}
+.benefits .gift h4{
+    text-transform: uppercase;
+    color: #30417d;
+    font-size: 30px;
+    margin: 0;
+}
+.benefits .gift p{
+    font-size: 24px;
+}
+.services {
+    padding: 40px 0;
+}
+.services img{
+    margin: 0 auto;
+}
+.brands{
+    padding: 50px 0;
+}
+.brands ul {
+    text-align: center;
+}
+.brands ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.priority{
+    background: url(../../../uploads/2016/12/bg-dang-ky-nhan-ve.jpg);
+    padding: 120px 50px;
+}
+.priority .box-form h4{
+    color: #041b72;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.priority .box-form form{
+    max-width: 450px;
+    margin: 0 auto;
+}
+.priority .box-form p{
+    margin-bottom: 15px;
+}
+.priority .box-form input:not([type="submit"]){
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 1px 9px rgba(0,0,0,.3);
+    border: none;
+    padding: 5px 10px;
+}
+.priority .box-form input[type="submit"]{
+    background: url(../../../uploads/2016/12/dang-ky-nhan-ve.png) no-repeat;
+    width: 200px;
+    object-fit: cover;
+    height: 50px;
+    margin: 0 auto;
+    background-size: 100%;
+    border: none;
+    text-indent: -9999px;
+}
+@media only screen and (min-width: 1200px){
+    .header .navbar-menu{
+        width: 53%;
+    }
+    .header .nav-contact{
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+    .box-revslider .box-countdown {
+        bottom: 0;
+        left: 90px;
+        position: absolute;
+        top: 270px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .header .logo img{
+        max-height: 200px;
+    }
+    .header .navbar-menu .nav{
+        margin: 20px 0;
+        text-align: center;
+    }
+    .header .navbar-menu .nav li{
+        padding: 5px 0;
+    }
+    .client .doctor{
+        margin: 20px 0;
+    }
+    .client .doctor h3{
+        font-size: 35px;
+        line-height: 1.5em;
+    }
+    .client .doctor p{
+        font-size: 25px;
+        line-height: 1.5em;
+    }
+    .benefits .text-header{
+        font-size: 30px;
+    }
+    .benefits .text-header .text-danger,
+    .benefits .text-header .text-blue{
+        font-size: 40px;
+    }
+    .benefits .gift{
+        margin: 20px 0;
+        padding-bottom: 360px;
+        background-size: 300px;
+    }
+    .benefits .gift ul{
+        text-align: center;
+    }
+    .benefits .gift .number{
+        display: block;
+        text-align: center;
+    }
+    .benefits .gift h4{
+        font-size: 20px;
+    }
+    .benefits .gift p{
+        font-size: 18px;
+    }
+    .benefits .gift  ul li:first-child{
+        margin-bottom: 20px;
+    }
+    .benefits .gift .gift-right{
+        padding-left: 15px;
+    }
+    .brands ul li{
+        margin-bottom: 20px;
+    }
+    .priority{
+        padding: 30px 0;
+    }
+    .priority .box-form h4{
+        font-size: 26px;
+    }
+    .box-revslider .box-countdown{
+        left: 0;
+        bottom: 0;
+        top: 105px;
+        max-width: 100%;
+    }
+    .box-revslider .box-countdown .flip-clock-wrapper {
+        width: 650px;
+        transform: scale(.55);
+        margin-left: -122px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .box-revslider .box-countdown{
+        top: 85px;
+    }
+    .box-revslider .box-countdown .flip-clock-wrapper {
+        width: 630px;
+        transform: scale(.46);
+        margin-left: -142px;
+    }
+}
