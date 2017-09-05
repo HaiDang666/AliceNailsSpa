@@ -734,6 +734,7 @@ li:before {
 
 .introduct .intro-item .inhover {
     -webkit-box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.2);
+    height: 500px;
     box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.2);
     -webkit-transition: all .3s;
     -o-transition: all .3s;
