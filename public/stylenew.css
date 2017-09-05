@@ -10,6 +10,14 @@ header .slogal img {
 }
 
 /* slider */
+.carousel-inner .item img{
+	align-content: center;
+	align-items: center;
+	vertical-align: middle;
+	position: block !important;
+	margin: auto !important;
+	align-self: center;
+}
 .carousel-indicators .active {
 	background-color: rgb(179, 117, 16) !important;
 }
