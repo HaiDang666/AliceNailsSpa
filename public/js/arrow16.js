@@ -24,7 +24,7 @@ var scrolltotop={
 
     setting: {startline:100, scrollto: 0, scrollduration:1000, fadeduration:[500, 100]},
 
-    controlHTML: '<p class="cd hidden-xs hidden-sm">(*) Hiệu quả có thể thay đổi tuỳ theo từng người.</p><img src="https://benhvienaau.vn/wp-content/themes/bvtmaau/images/arrow16.png" />', //HTML for control, which is auto wrapped in DIV w/ ID="topcontrol"
+    controlHTML: '<p class="cd hidden-xs hidden-sm">(*) Hiệu quả có thể thay đổi tuỳ theo từng người.</p><img src="/images/arrow16.png" />', //HTML for control, which is auto wrapped in DIV w/ ID="topcontrol"
 
     controlattrs: {offsetx:5, offsety:55}, //offset of control relative to right/ bottom of window corner
 
