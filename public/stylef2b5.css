@@ -1831,6 +1831,7 @@ ul#related-posts-via-categories-list li .hidethenumber a {
 .support form button {
     width: 150px;
     background: none repeat scroll 0% 0% rgb(179, 117, 16);
+    border-color: rgb(179, 117, 16);
     border-radius: 0px;
     color: #FFF;
     text-transform: uppercase;
