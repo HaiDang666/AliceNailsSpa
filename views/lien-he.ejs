@@ -40,17 +40,34 @@
                 	<div class="sidebar-spacing hidden-xs"></div>
                     <div class="support">
                         <div class="number">
-                            <h2>Tư vấn trực tuyến</h3>
+                            <h2>Đặt lịch tư vấn</h3>
                             <p>0938.39.16.56</p> <span>HAY</span></div>
-                        <form action="https://docs.google.com/forms/d/1bWhxLFQ6cNzDITWV2xJICdHh41nmRXZnvcy7EezwCqQ/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
-                            <input type="text" name="entry.1431387140" value="" class="ss-q-short" id="entry_1431387140" dir="auto" aria-label="Họ và tên  " aria-required="true" required="" title="" placeholder="HỌ VÀ TÊN" title="Vui lòng điền họ tên">
-                            <input type="text" name="entry.1511818966" value="" class="ss-q-short" id="entry_1511818966" dir="auto" aria-label="Số điện thoại  Số điện thoại không chính xác" aria-required="true" required="" pattern=".*\+?\(?\d{2,4}\)?[\d\s-]{3,}.*" title="Số điện thoại không chính xác" placeholder="SỐ ĐIỆN THOẠI">
-                            <input type="text" name="entry.1453085291" value="" class="ss-q-short" id="entry_1453085291" dir="auto" aria-label="Email  Email không chính xác" aria-required="true" required="" pattern=".*@.*" title="Email không chính xác" placeholder="EMAIL">
-                            <input type="text" name="entry.542910917" value="" class="ss-q-short" id="entry_542910917" dir="auto" aria-label="Ngày tháng  " aria-required="true" required="" title="" placeholder="NGÀY THÁNG">
-                            <textarea name="entry.147923081" rows="8" cols="0" class="ss-q-long required" id="entry_147923081" dir="auto" aria-label="Nội dung  " aria-required="true" required="" placeholder="NỘI DUNG"></textarea>
-                            <p class="text-center">
-                                <button type="submit" class="btn" id="ss-submit" name="submit">đặt lịch tư vấn</button>
-                            </p>
+
+                        <!-- form -->
+                        <form id="ggsheet" class="row" method="POST" action="" target="no-target">
+                            <div class="form-group">
+                                <label for="name">Họ tên : </label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Họ tên" required="required" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="name">Số Điện Thoại : </label>
+                                <input type="number" class="form-control" id="phone" name="phonenumber" placeholder="Nhập số điện thoại" required="required" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="name">Email : </label>
+                                <input type="text" class="form-control" id="mail" name="address" placeholder="Email" required="required" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="name">
+                                    Nội dung : </label>
+                                <textarea name="message" id="content" name="note" class="form-control" rows="9" cols="25" required="required" placeholder="Nội dung cân tư vấn"></textarea>
+                            </div>
+
+                            <button id="form-submit" type="submit" class="btn btn-primary pull-right">
+                                Đặt lịch tư vấn</button>
                         </form>
                     </div>
                 </div>
@@ -60,3 +77,27 @@
 </div>
 <% include ./partials/footer %>
 <% include ./partials/endhead %>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+<script>
+    $('#ggsheet').one('submit', function() {
+        var inputName = encodeURIComponent($('#name').val());
+        var inputSdt = encodeURIComponent($('#phone').val());
+        var inputEmail = encodeURIComponent($('#mail').val());
+        var inputContent = encodeURIComponent($('#content').val());
+
+        // id
+        var nameID = "entry.1682615381";
+        var sdtID = "entry.812550251";
+        var emailID = "entry.2131806386";
+        var contentID = "entry.1784671824";
+
+        var baseURL = "https://docs.google.com/forms/d/e/1FAIpQLSelOYrqunhyk2xoVbxh_pLmz8dIXKL9OfW-Ab-scklFuZX9SQ/formResponse?";
+        var submitRef = '&submit=Submit';
+        var submitURL = (baseURL + nameID + "=" + inputName + "&" + sdtID + "=" + inputSdt + "&" + emailID + "=" + inputEmail + "&" + contentID + "=" + inputContent + submitRef);
+        console.log(submitURL);
+        console.log("sent successfully");
+        $(this)[0].action = submitURL;
+    });
+</script>
