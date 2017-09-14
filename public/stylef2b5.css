@@ -29,7 +29,8 @@ img {
 
 body {
     font-size: 15px;
-    line-height: 1.8em
+    line-height: 1.8em;
+    font-family: "open sans", arial, "san-serif";
 }
 
 .bothm {
@@ -131,7 +132,7 @@ li#menu-item-35535 a {
 }
 
 .dnbs ul.nav li.active img {
-    border: 2px solid #001b70;
+    border: 3px solid #b37510;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s
@@ -911,7 +912,7 @@ li:before {
 }
 
 .doctor {
-    margin-bottom: 40px
+    margin-bottom: 0
 }
 
 .doctor .item {
@@ -2268,4 +2269,8 @@ blockquote.right {
 
 .m-slider{
     border-radius: 5px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Diavlo_LIGHT;
 }
