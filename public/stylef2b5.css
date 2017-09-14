@@ -114,12 +114,10 @@ li#menu-item-35535 a {
 .dnbs ul.nav {
     width: 40%;
     float: right;
-    margin-top: 10px
 }
 
 .dnbs ul.nav li a {
-    border-radius: 0px;
-    margin: 10px;
+    margin: 0 10px 10px 10px;
     padding: 0
 }
 
@@ -128,11 +126,12 @@ li#menu-item-35535 a {
     height: 90px;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
-    transition: 0.3s
+    transition: 0.3s;
+    border-radius: 50%;
 }
 
 .dnbs ul.nav li.active img {
-    border: 5px solid #001b70;
+    border: 2px solid #001b70;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s
@@ -2265,4 +2264,8 @@ blockquote.right {
 .comment-box .comment-author img {
     float: left;
     margin: 0.4em 1em 0 0
+}
+
+.m-slider{
+    border-radius: 5px;
 }
