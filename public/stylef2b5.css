@@ -128,7 +128,7 @@ li#menu-item-35535 a {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .dnbs ul.nav li.active img {
