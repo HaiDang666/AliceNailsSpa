@@ -184,38 +184,45 @@
         <!-- <div class="text-center"> <a href="#" class="readmore" data-toggle="modal" data-target="#myModal2"><i class="fa fa-pencil-square-o"></i> Đặt Lịch Khám</a></div> -->
     </div>
 
-
-    <div class="container">
-        <div class="container-wrapper" id="hot-new-widget" tabindex="0">
-            <div class="newinfo-bar">
+    <!-- Tin tuc cc -->
+<div class="container" style="height: 40px;">
+    <div class="container-wrapper" id="hot-new-widget" tabindex="0">
+        <div class="newinfo-bar">
             <div class="newinfo-title">
-            <div class="newinfo-top">
-            <h3><em class='glyphicon glyphicon-list'></em>News:</h3>
-            <div class="newinfo-link">
-            <a href='/vn/en/about-us/press-room/news'>View all</a>
-            </div>
-            </div>
-            <ul class="newinfo-title-list ContentHotNews">
-
-            <li>
-            <span>
-            <span id="content_0_rptHotNews_ctl00_lblCreateDate">15/09/2017</span>
-            </span>
-            <a id="content_0_rptHotNews_ctl00_hplLinkTo" class="vna-ajax-modal" data-replace="#modal-container" data-target="#myModal" href="">Vietnam Airlines adjusts flight schedules due to impact of tropical storm Doksuri (updated 15Sep)</a>
-            </li>
-
-            <li>
-            <span>
-            <span id="content_0_rptHotNews_ctl01_lblCreateDate">15/09/2017</span>
-            </span>
-            <a id="content_0_rptHotNews_ctl01_hplLinkTo" class="vna-ajax-modal" data-replace="#modal-container" data-target="#myModal" href="">Vietnam Airlines adjusts flight schedules due to impact of tropical storm Doksuri</a>
-            </li>
-
-            </ul>
-            </div>
+                <div class="newinfo-top">
+                    <h3 style="margin-right: 10px;"><em class='glyphicon glyphicon-list'></em> Nổi bật:</h3>
+                </div>
+                <div id="example666" style="width: 700px;">
+                    <ul class="newinfo-title-list ContentHotNews" style="margin-bottom: 0;background-color: white;">
+                        <li>
+                            <span>15/09/2017 </span>
+                            <a class="vna-ajax-modal" ref="">Vietnam Airlines adjusts flight schedules due to impact of tropical storm Doksuri (updated 15Sep)</a>
+                        </li>
+                    </ul>
+                    <ul class="newinfo-title-list ContentHotNews" style="margin-bottom: 0;background-color: white;">
+                        <li>
+                            <spa>15/09/2019 </span>
+                            <a class="vna-ajax-modal" ref="">Vietnam Airlines adjusts flight schedules due to impact of tropical storm Doksuri (updated 15Sep)</a>
+                        </li>
+                    </ul>
+                    <ul class="newinfo-title-list ContentHotNews" style="margin-bottom: 0;background-color: white;">
+                        <li>
+                            <span>15/09/2020 </span>
+                            <a class="vna-ajax-modal" ref="">Vietnam Airlines adjusts flight schedules due to impact of tropical storm Doksuri (updated 15Sep)</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href='/vn/en/about-us/press-room/news' style="color: rgb(179, 117, 16);margin-top: -52px;" class="pull-right"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Xem thêm</a>
             </div>
         </div>
     </div>
+</div>
+
+<script type="text/javascript">
+    $(function() {
+        $('#example666').vTicker();
+    });
+</script>
 
 <!-- <script type="text/javascript">
     function ContentHotNewsPager(itemID, Speed, Pause, Auto) {
