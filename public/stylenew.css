@@ -35,3 +35,168 @@ header .slogal img {
 .sidebar-spacing {
 	height: 49px;
 }
+
+
+
+
+
+
+.container-wrapper {
+    max-width:1000px;
+    position:relative;
+    margin:auto;
+    clear:both;
+    border-radius:4px
+}
+
+.newinfo-bar a:focus,
+.newinfo-link a:focus, {
+    border: 1px solid #0B647E!important;
+    box-shadow: 0 0 10px #719ECE!important
+}
+.newinfo-bar {
+    border-bottom:1px solid #ada598;
+    clear:both;
+    height:52px;
+    overflow:hidden;
+    position:relative
+}
+.newinfo-title {
+    padding-top:5px
+}
+.newinfo-link {
+    float:right;
+    position:absolute;
+    right:0;
+    top:10px
+}
+.newinfo-link a {
+    color:#333;
+    font-family:"OpenSans",
+    Arial;
+    font-size:14px;
+    text-decoration:none;
+    position:relative;
+    padding-left:10px
+}
+.newinfo-link a:before {
+    content:">>";
+    color:#333;
+    top:0;
+    font-size:13px;
+    font-weight:400;
+    font-family:"DiavloBook-Regular",
+    Arial;
+    text-decoration:none;
+    position:absolute;
+    left:-1px;
+    letter-spacing:-2px;
+    line-height:21px
+}
+.newinfo-link a:hover {
+    text-decoration:underline
+}
+.newinfo-bar .newinfo-top {
+    float:left
+}
+.newinfo-title h3 {
+    margin:0;
+    font-weight: bold;
+    font-size:15px;
+    line-height:25px;
+    color:#ecb10e;
+    float:left;
+    font-family:"OpenSans-Bold",
+    Arial
+}
+.newinfo-title h3 i {
+    background-color:#ecb10e;
+    color:#F2F2F2;
+    padding:7px;
+    font-size:12px;
+    border-radius:20px;
+    position:relative;
+    margin-right:3px
+}
+.newinfo-title ul li {
+    width:750px
+}
+.newinfo-title ul li span {
+    color:#006886;
+    font-family:"OpenSans",
+    Arial;
+    font-size:14px;
+    line-height:20px
+}
+.newinfo-title ul li a {
+    color:#333;
+    font-family:"OpenSans",
+    Arial;
+    font-size:14px;
+    line-height:20px
+}
+.newinfo-title .bx-wrapper {
+    float:left
+}
+.newinfo-title .bx-wrapper .bx-viewport {
+    background-color:transparent;
+    border:none;
+    box-shadow:none;
+    left:5px;
+    top:4px
+}
+
+
+
+
+#logo_skytrax_wap {
+    background-image: url(./images/pattern_vang.svg);
+    margin-top: 10px;
+    background-repeat: repeat;
+    background-size: 250px;
+    background-color: #F8F3E7;
+    min-height: 75px;
+    padding: 10px 0
+}
+#logo_skytrax_wap .container {
+    background-color: transparent;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    padding: 0
+}
+.logo-skytrax-img {
+    display: inline-block;
+    min-width: 120px;
+    vertical-align: middle;
+    width: 120px;
+    text-align: center
+}
+.logo-skytrax-img img {
+    display: block;
+    margin: auto;
+    width: 85px;
+    position: absolute;
+    left: 0;
+    bottom: 5px
+}
+.logo-skytrax-txt h4 {
+    color: #0b6e8b;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 5px
+}
+.logo-skytrax-txt {
+    display: inline-block;
+    vertical-align: middle;
+    width: 85%;
+    font-size: 13px;
+    color: #333
+}
+.logo-skytrax-txt p,
+.logo-skytrax-txt>p,
+#logo_skytrax_wap p {
+    margin-bottom: 0;
+    color: #333
+}

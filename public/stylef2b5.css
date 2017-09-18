@@ -602,8 +602,8 @@ header .top-bar .top-menu ul li a {
 header .menu-cont {
     z-index: 999;
     width: 100%;
-    background: #b37510;
-    margin: 5px 0
+    background: #B37510;
+    margin-top: 5px;
 }
 
 header .menu-cont .header-menu>ul {
@@ -615,6 +615,7 @@ header .menu-cont .header-menu>ul {
 header .menu-cont .header-menu>ul li {
     display: inline-block;
     position: relative;
+
 }
 
 header .menu-cont .header-menu>ul li:last-child {
@@ -632,7 +633,8 @@ header .menu-cont .header-menu>ul li a {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: bold
+    font-weight: bold;
+    height: 50px;
 }
 
 header .menu-cont .header-menu>ul li ul {
@@ -654,11 +656,12 @@ header .menu-cont .header-menu>ul li:hover {
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(230, 225, 218);
 }
 
 header .menu-cont .header-menu>ul li:hover>a {
     text-decoration: none;
+    color: #F5C83C;
 }
 
 header .menu-cont .header-menu>ul li:hover ul {
@@ -736,16 +739,27 @@ li:before {
     -webkit-box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.2);
     height: 500px;
     box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.2);
+    border: 2px solid rgba(50, 50, 50, 0.2);
+    border-radius: 20px;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s
 }
 
 .introduct .intro-item .inhover:hover {
-    background: #F3C63B;
+    background: #ecb10e;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
-    transition: all .3s
+    transition: all .3s;
+
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.introduct .intro-item .inhover:hover a{
+    background: #000;
+    color: #fff;
 }
 
 .introduct .intro-item h3 {
@@ -764,8 +778,15 @@ li:before {
 
 .introduct .intro-item img {
     margin-bottom: 15px;
+    border-radius: 20px;
+    border: 2px solid rgba(50, 50, 50, 0.2);
     width: 100%;
     height: auto
+}
+
+.introduct .intro-item img:hover {
+    border: 2px solid rgba(50, 50, 50, 0.2);
+    border-radius: 20px;
 }
 
 .introduct .intro-item p.top {
