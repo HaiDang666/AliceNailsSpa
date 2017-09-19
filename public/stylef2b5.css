@@ -107,14 +107,16 @@ li#menu-item-35535 a {
 }
 
 .dnbs {
-    background: url('images/bs/bs-bg.png') top center / 100% no-repeat;
+    /*background: url('images/bs/bs-bg.png') top center / 100% no-repeat;*/
     overflow: hidden;
     margin-bottom: 25px
 }
 
 .dnbs ul.nav {
-    width: 40%;
+    margin-right: 60px;
+    width: 30%;
     float: right;
+    border-bottom: none;
 }
 
 .dnbs ul.nav li a {
@@ -177,7 +179,7 @@ li#menu-item-35535 a {
 
 @media screen and (max-width:1024px) {
     .dnbs {
-        background: #DCE9F6
+        /*background: #DCE9F6*/
     }
     .dnbs ul.nav img {
         width: 65px!important;
@@ -197,7 +199,8 @@ li#menu-item-35535 a {
 
 @media screen and (max-width:460px) {
     .dnbs ul.nav {
-        width: 100%!important
+        width: 100%!important;
+        margin-right: 0;
     }
     .dnbs ul.nav img {
         width: 32px!important;
@@ -275,7 +278,8 @@ li#menu-item-35535 a {
     text-transform: uppercase;
     color: #444444;
     font-weight: bold;
-    padding: 15px
+    padding-top: 20px;
+    font-family: Diavlo_LIGHT;
 }
 
 .registry a.readmore {
@@ -1695,7 +1699,6 @@ li:before {
     margin-bottom: 10px;
     width: 100%;
     border-bottom: 1px dashed #F3C63B;
-    background: url('images/tick-icon.png') no-repeat left
 }
 
 .single-content .sidebar .sidebar-item a.datlich {

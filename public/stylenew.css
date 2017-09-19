@@ -289,3 +289,65 @@ header .slogal img {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
+
+.nav-tabs>li>a:hover {
+    border-color: transparent;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: transparent;
+    cursor: default;
+    background-color: transparent;
+    border: none;
+    border-bottom-color: transparent;
+}
+.nav-tabs>li.active {
+    width: 112px;
+    height: 102px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-tabs>li.active {
+    width: 87px;
+    height: 77px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .slogan-1 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .logo-1 {
+    margin-top: 10px;
+    height: 90px !important;
+  }
+
+  .nav-tabs>li.active {
+    width: 72px;
+    height: 62px;
+  }
+  #cfacebook {
+    right: 10px !important;
+  }  
+}
+
+@media only screen and (max-width: 425px) {
+  .nav-tabs>li.active {
+    width: 54px;
+    height: 44px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .nav-tabs>li.active {
+    width: 48px;
+    height: 38px;
+  }
+}
+
