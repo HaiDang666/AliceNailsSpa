@@ -83,7 +83,7 @@
 
     <!-- Tin tuc cc -->
 <div class="container" style="height: 40px;">
-    <div class="container-wrapper" id="hot-new-widget" tabindex="0">
+    <div class="container-wrapper" id="hot-new-widget" style="margin-left: 0" tabindex="0">
         <div class="newinfo-bar">
             <div class="newinfo-title">
                 <div class="newinfo-top">
@@ -120,44 +120,6 @@
         $('#example666').vTicker();
     });
 </script>
-
-<!-- <script type="text/javascript">
-    function ContentHotNewsPager(itemID, Speed, Pause, Auto) {
-    if (itemID != null) {
-        console.log("fffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        $.ajax({
-            type: "Post",
-            url: "/WebAPI/CD/CDService.asmx/GetContentHotNews",
-            data: "{idItem: '" + itemID + "'}",
-            contentType: "application/json; charset=utf-8",
-            dataType: "json",
-            error: function (data, textStatus) {
-            },
-            success: function (data) {
-                $('.ContentHotNews').empty();
-                // display News item 
-                var obj = $.parseJSON(data.d);
-                if ((typeof (obj) != 'undefined' && obj != null)) {
-                    if (obj.length == 0) {
-                        $("#hot-new-widget").hide();
-                    }
-                    $.each(obj, function () {
-                        var sHtml = "<li><span>" + this.CreateDate + "</span>";
-                        sHtml += "<a href = '" + this.LinkViewContent + "'> " + this.Summary + "";
-                        sHtml += "</a>";
-                        sHtml += "</li>";
-                        $('.ContentHotNews').append(sHtml);
-                    });
-                    sliderNewsTitleContentNews(Speed, Pause, Auto);
-                }
-            },
-            complete: function () {
-                console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-            }
-        });
-    }
-}
-</script> -->
 
 
     <!-- video demo and user picture -->
@@ -220,7 +182,7 @@
             <div class="container">
                 <div class="strike">
                     <h2>NGHỆ SĨ TẠI ALICE</h2>
-                    <div class="text-center">Một số nghệ sĩ đã sử dụng dịch vụ của Alice Nails &amp; Spa.</div>
+                    <div class="text-center">Một số nghệ sĩ đã sử dụng dịch vụ của Alice Nails &amp; Spa</div>
                 </div>
                 <div class="dnbs">
                     <div>
@@ -439,25 +401,51 @@
                 </div>
             </div>
         </div>
+        
+        <div class="introduct visible-sm visible-xs">
+            <div class="container">
+                <div class="strike">
+                    <h2>CƠ SỞ VẬT CHẤT</h2>
+                    <div class="text-center">Alice Nails &amp; Spa sử dụng các thiết bị tân tiến nhằm đem lại cảm giác trải nghiệm tốt nhất cho khách hàng</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 intro-item">
+                        <img class="img-responsive" src="/images/facilities/6.jpg" alt="">
+                            <h3>Cơ sở vật chất đẳng cấp 5 sao</h3>
+                            <p>Alice Nails &amp; Spa tự hào là một trong nhưng trung tâm điều trị thẩm mỹ uy tín nhất hiện nay với công nghệ cao cấp từ các nước có ngành thẩm mỹ tiên tiến nhất trên Thế giới.<br/>Với phong cách hiện đại và không gian trị liệu sang trọng được chăm chút đến từng chi tiết, Alice Nails &amp; Spa hứa hẹn sẽ đem lại cho bạn những giây phút trải nghiệm tuyệt vời.</p>
+                    </div>
+                    <div class="col-xs-12 intro-item">
+                        <img class="img-responsive" 
+                            src="/images/facilities/12.jpg" 
+                            alt="">
+                            <h3>Tư vấn tận tình</h3>
+                            <p>Đến với Alice Nails &amp; Spa, bạn sẽ được tiếp đón bởi đội ngũ tư vấn viên năng động và thân thiện, luôn sẵn sàng lắng nghe và giải đáp những thắc mắc, cũng như đem lại cho bạn những lời tư vấn tốt và phù hợp với nhu cầu của bạn nhất.</p>
+                    </div>
+                    <div class="col-xs-12 intro-item">
+                        <img class="img-responsive" 
+                        src="/images/facilities/10.jpg"
+                        alt="">
+                            <h3>Đội ngũ chuyên viên chuyên nghiệp</h3>
+                            <p>Alice Nails &amp; spa với đội ngũ chuyên môn và tay nghề cao, luôn tận tâm trong từng ca điều trị để đem lại cho bạn hiệu quả tối ưu. Với hơn nhiều kinh nghiệm trong ngành thẩm mỹ và điều trị da, trải qua nhiều khóa đào tạo và huấn luyện quốc tế, đội ngũ chuyên viên của Alice Nails &amp; Spa sẽ luôn sẵn sàng lắng nghe và đồng hành cùng bạn chinh phục những chặng đường hướng đến vẻ đẹp toàn diện.<br/></p>
+                    </div>
+                </div>    
+            </div>
+        </div>    
     </div>
     <!-- end co so vat chat -->
 
 
 
-    <div id="logo_skytrax_wap" style="">
-        <div class="container">
-            <div class="row">
-                <div class="logo-skytrax-txt col-xs-12">
-                    <h4 style="margin-top: 5px;">Alice Nails &amp; Spa</h4>
-                    <p style="margin-bottom: 5px;">Our sincere thanks to all valued customers and partners for your support!</p>
-                </div>
+<div id="" style="" class="concac">
+    <div class="container">
+        <div class="row">
+            <div class="logo-skytrax-txt col-xs-12">
+                <h4 style="margin-top: 5px;">Alice Nails &amp; Spa</h4>
+                <p style="margin-bottom: 5px;">Our sincere thanks to all valued customers and partners for your support!</p>
             </div>
         </div>
     </div>
-
-
-
-
+</div>
 
     <!-- Footer -->
     <% include ./partials/footer %>

@@ -1790,7 +1790,7 @@ ul#related-posts-via-categories-list li .hidethenumber a {
 .support .number {
     width: 360px;
     height: 130px;
-    padding-top: 15px;
+    padding-top: 0;
     background: none repeat scroll 0% 0% rgb(179, 117, 16);
     text-align: center;
     position: relative
@@ -1813,6 +1813,7 @@ ul#related-posts-via-categories-list li .hidethenumber a {
 }
 
 .support .number p {
+    margin-bottom: 1px;
     font-size: 20px;
     color: #FFF;
     font-weight: 700

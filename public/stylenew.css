@@ -222,7 +222,14 @@ header .slogal img {
 }
 
 
-
+.concac {
+    background-image: url(./images/pattern_vang.svg);
+    margin-top: 10px;
+    background-repeat: repeat;
+    background-color: #F8F3E7;
+    min-height: 75px;
+    padding: 10px 0
+}
 
 #logo_skytrax_wap {
     background-image: url(./images/pattern_vang.svg);
