@@ -741,7 +741,7 @@ li:before {
 
 .introduct .intro-item .inhover {
     -webkit-box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.2);
-    height: 500px;
+    height: 550px;
     box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.2);
     border: 2px solid rgba(50, 50, 50, 0.2);
     border-radius: 20px;
