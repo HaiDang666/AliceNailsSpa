@@ -95,7 +95,7 @@ header .slogal img {
 }
 
 .top, .bottom {
-  background: pink;
+  background: rgb(179, 117, 16);
   opacity: 0.7;
   position: absolute;
 }

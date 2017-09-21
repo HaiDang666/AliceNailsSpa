@@ -133,7 +133,14 @@ li#menu-item-35535 a {
     border-radius: 10px;
 }
 
-.dnbs ul.nav li.active img {
+.dnbs ul.nav img:hover {
+    border: 3px solid #b37510;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s
+}
+
+.dnbs ul.nav li img:hover {
     border: 3px solid #b37510;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
