@@ -1281,6 +1281,9 @@ li:before {
     padding-left: 23px
 }
 
+.single-content {
+    margin-bottom: 50px;
+}
 .single-content .content .post {
     text-align: justify
 }
