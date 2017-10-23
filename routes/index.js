@@ -1,6 +1,12 @@
 var express = require('express');
 var router = express.Router();
 
+/* GET admin post page. */
+router.get('/admin', function(req, res, next) {
+	res.render('admin.ejs');
+});
+
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
 	var baseUrl = req.baseUrl;
@@ -11,11 +17,8 @@ router.get('/', function(req, res, next) {
 
 	res.render(baseUrl, {}, function(err, html) {
 		if(err) {
-			console.log(baseUrl);
-			console.log("View not exist");
 			res.render('index'); // File doesn't exist
 		} else {
-			console.log(baseUrl);
 			res.render(baseUrl); 
 		}
 	});
