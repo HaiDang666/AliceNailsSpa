@@ -744,12 +744,15 @@ li:before {
 }
 
 .introduct .intro-item {
-    text-align: center
+    text-align: center;
+    padding: 20px;
 }
 
 .introduct .intro-item .inhover {
     -webkit-box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.2);
-    height: 550px;
+    height: auto;
+    width: 700px;
+    margin: 0 auto;
     box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.2);
     border: 2px solid rgba(50, 50, 50, 0.2);
     border-radius: 20px;
@@ -789,7 +792,6 @@ li:before {
 }
 
 .introduct .intro-item img {
-    margin-bottom: 15px;
     border-radius: 20px;
     border: 2px solid rgba(50, 50, 50, 0.2);
     width: 100%;
